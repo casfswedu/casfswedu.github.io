@@ -1,0 +1,365 @@
+* {
+     margin: 0px;
+     padding: 0px;
+}
+
+html, body {
+     background-color: #ffffff;
+     color: #000000;
+     font-family: "Segoe UI","Segoe","SegoeUI-Regular-final",Tahoma,Helvetica,Arial,sans-serif;
+     font-weight: normal;
+     height: 100%;
+     min-width: 500px;
+     width: 100%;
+}
+
+body {
+     font-size: 0.9em;
+}
+
+#noScript {
+     color: Black;
+     margin: 16px;
+}
+
+:lang(en-GB) {
+     quotes: "‘" "’" "“" "”";
+}
+
+:lang(zh) {
+     font-family: 微软雅黑;
+}
+
+#fullPage, #brandingWrapper {
+     background-color: inherit;
+     height: 100%;
+     width: 100%;
+}
+
+#brandingWrapper {
+    
+}
+
+#branding {
+     background-color: inherit;
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 100%;
+     margin-left: 0px;
+     margin-right: 500px;
+}
+
+#contentWrapper {
+     background: rgba(67, 28, 96, 0.95) none repeat scroll 0px 0px;
+     height: 100%;
+     margin-left: -500px;
+     margin-right: 0px;
+     overflow: auto;
+     position: relative;
+     width: 500px;
+}
+
+#content {
+     color: #00b0ad;
+     height: auto ! important;
+     margin: 0px auto -55px;
+     min-height: 100%;
+     padding: 0px 150px 0px 50px;
+}
+
+#header {
+     font-family: "Segoe UI Light","Segoe","SegoeUI-Light-final",Tahoma,Helvetica,Arial,sans-serif;
+     font-size: 2em;
+     font-weight: lighter;
+     margin-bottom: 60px;
+     min-height: 100px;
+     overflow: hidden;
+     padding-top: 90px;
+}
+
+#header img {
+     height: 100%;
+     width: 100%;
+}
+
+#workArea, #header {
+     width: 350px;
+     word-wrap: break-word;
+}
+
+#workArea {
+     margin-bottom: 90px;
+}
+
+#footerPlaceholder {
+     height: 40px;
+}
+
+#footer {
+     color: #666666;
+     font-size: 0.78em;
+     height: 40px;
+     padding: 10px 50px 0px;
+     position: relative;
+}
+
+#footerLinks {
+     float: none;
+     padding-top: 10px;
+}
+
+#copyright {
+     color: #696969;
+}
+
+.pageLink {
+     color: #000000;
+     padding-left: 16px;
+}
+
+.clear {
+     clear: both;
+}
+
+.float {
+     float: left;
+}
+
+.floatReverse {
+     float: right;
+}
+
+.indent {
+     margin-left: 16px;
+}
+
+.indentNonCollapsible {
+     padding-left: 16px;
+}
+
+.hidden {
+     display: none;
+}
+
+.notHidden {
+     display: inherit;
+}
+
+.error {
+     color: #c85305;
+}
+
+.actionLink {
+     display: block;
+     margin-bottom: 8px;
+}
+
+a {
+     background-color: transparent;
+     color: #2672ec;
+     text-decoration: none;
+}
+
+ul {
+     list-style-type: disc;
+}
+
+h1, h2, h3, h4, h5, label {
+     margin-bottom: 8px;
+}
+
+.submitMargin {
+     margin-bottom: 30px;
+     margin-top: 38px;
+}
+
+.topFieldMargin {
+     margin-top: 8px;
+}
+
+.fieldMargin {
+     margin-bottom: 8px;
+}
+
+.groupMargin {
+     margin-bottom: 30px;
+}
+
+.sectionMargin {
+     margin-bottom: 64px;
+}
+
+.block {
+     display: block;
+}
+
+.autoWidth {
+     width: auto;
+}
+
+.fullWidth {
+     width: 342px;
+}
+
+.fullWidthIndent {
+     width: 326px;
+}
+
+input {
+     font-family: inherit;
+     margin-bottom: 8px;
+     max-width: 100%;
+}
+
+input[type="radio"], input[type="checkbox"] {
+     margin-bottom: 0px;
+     vertical-align: middle;
+}
+
+
+span.submit, input[type="submit"] {
+	-moz-user-select: none;
+     background: #00b0ad none repeat scroll 0% 0%;
+     border-radius: 5px;
+     border: 0px none;
+     color: #ffffff;
+     cursor: pointer;
+     font-size: 14px;
+     min-width: 110px;
+     padding: 9px 15px;
+      transition: background 0s ease 0s;
+}
+
+
+input[type="submit"]:hover, span.submit:hover {
+     background:#348583;
+	-moz-box-shadow: rgba(168, 198, 226, 0.15) 0px 0px 8px;
+	-webkit-box-shadow: rgba(168, 198, 226, 0.15) 0px 0px 8px;
+	-o-box-shadow: rgba(168, 198, 226, 0.15) 0px 0px 8px;
+	box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 8px;
+}
+
+input.text {
+     border: 1px solid #bababa;
+     height: 28px;
+     padding: 0px 3px;
+}
+
+input.text:focus {
+     border: 1px solid #6b6b6b;
+}
+
+select {
+     box-shadow: none;
+     font-family: inherit;
+     height: 28px;
+     margin-bottom: 8px;
+     max-width: 100%;
+     min-width: 60px;
+     overflow: hidden;
+     padding: 2px;
+     white-space: nowrap;
+}
+
+h1, .giantText {
+     font-size: 2em;
+     font-weight: lighter;
+}
+
+h2, .bigText {
+     font-size: 1.33em;
+     font-weight: lighter;
+}
+
+h3, .normalText {
+     font-size: 1em;
+     font-weight: normal;
+}
+
+h4, .smallText {
+     font-size: 0.9em;
+     font-weight: normal;
+}
+
+h5, .tinyText {
+     font-size: 0.8em;
+     font-weight: normal;
+}
+
+.hint {
+     color: #999999;
+}
+
+.emphasis {
+     color: #2f2f2f;
+     font-weight: 700;
+}
+
+.smallIcon {
+     height: 20px;
+     padding-right: 12px;
+     vertical-align: middle;
+}
+
+.largeIcon {
+     height: 48px;
+     vertical-align: middle;
+}
+
+.largeTextNoWrap {
+     display: table-cell;
+     font-size: 1.2em;
+     height: 48px;
+     vertical-align: middle;
+     white-space: nowrap;
+}
+
+.idp {
+     clear: both;
+     height: 48px;
+     overflow: hidden;
+     padding: 8px;
+}
+
+.idp:hover {
+     background-color: #cccccc;
+}
+
+.idpDescription {
+     width: 80%;
+}
+
+@media only screen and (max-height: 820px) {
+  #header { padding-top: 40px; min-height: 0px; overflow: hidden; }
+  #workArea { margin-bottom: 60px; }
+}
+
+@media only screen and (max-height: 500px) {
+  #header { padding-top: 30px; margin-bottom: 30px; }
+  #workArea { margin-bottom: 40px; }
+}
+
+@media only screen and (max-width: 600px) {
+  html, body { min-width: 260px; }
+  #brandingWrapper { display: none; }
+  #contentWrapper { float: none; width: 100%; margin: 0px auto; }
+  #content, #footer, #header { width: 400px; padding-left: 0px; padding-right: 0px; margin-left: auto; margin-right: auto; }
+  #workArea { width: 100%; }
+  .fullWidth { width: 392px; }
+  .fullWidthIndent { width: 376px; }
+}
+
+@media only screen and (max-width: 450px) {
+  body { font-size: 0.8em; }
+  #content, #footer { width: auto; margin-right: 33px; margin-left: 25px; }
+  #header { width: auto; }
+  span.submit, input[type="submit"] { font-size: 0.9em; }
+  .fullWidth { width: 100%; margin-left: auto; margin-right: auto; }
+  .fullWidthIndent { width: 85%; }
+  .idpDescription { width: 70%; }
+}
+
+@media only screen and (max-width: 280px) {
+  #contentWrapper { width: 260px; }
+  .idpDescription { max-width: 160px; min-width: 100px; }
+}
